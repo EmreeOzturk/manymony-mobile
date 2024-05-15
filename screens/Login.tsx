@@ -14,7 +14,7 @@ export default function Login({navigation}: {navigation: any}) {
           <Text>Back</Text>
         </TouchableOpacity>
       </View>
-      <View className="flex-grow-[2] w-full items-center justify-start py-4">
+      <View className="flex-grow-[1] w-full items-center justify-start py-4">
         <Text className="text-4xl text-left w-full px-4 font-bold text-zinc-800">
           Let's get started
         </Text>
@@ -28,7 +28,7 @@ export default function Login({navigation}: {navigation: any}) {
           />
         </View>
       </View>
-      <View className="flex-grow-[3]  pt-10 relative bg-white shadow-2xl w-full items-center justify-start rounded-t-[30px]">
+      <View className="flex-grow-[5]  pt-10 relative bg-white shadow-2xl w-full items-center justify-start rounded-t-[30px]">
         <View className="w-4/5 relative mt-4">
           <Text className="bg-white  text-emerald-400 text-sm absolute -top-3 left-4 px-2 z-10">
             Email Address
