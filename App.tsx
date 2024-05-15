@@ -4,6 +4,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreen from './screens/HomeScreen';
 import Login from './screens/Login';
 import Register from './screens/Register';
+import AppScreen from './screens/App';
 const Stack = createNativeStackNavigator();
 function App(): React.JSX.Element {
   return (
@@ -26,6 +27,13 @@ function App(): React.JSX.Element {
         <Stack.Screen
           name="Register"
           component={Register}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="Appscreen"
+          component={AppScreen}
           options={{
             headerShown: false,
           }}
