@@ -60,7 +60,7 @@ export default function Login({navigation}: {navigation: any}) {
 
           <TouchableOpacity
             onPress={() => {
-              navigation.navigate('Home');
+              navigation.navigate('Appscreen');
             }}>
             <Text className="bg-[#C7FDCD] text-zinc-700 text-base w-full rounded-lg py-2 mt-4 text-center">
               Login
