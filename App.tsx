@@ -5,6 +5,9 @@ import HomeScreen from './screens/HomeScreen';
 import Login from './screens/Login';
 import Register from './screens/Register';
 import AppScreen from './screens/App';
+import Analytics from './screens/Analytics';
+import Budgets from './screens/Budgets';
+import Expenses from './screens/Expeneses';
 const Stack = createNativeStackNavigator();
 function App(): React.JSX.Element {
   return (
@@ -34,6 +37,27 @@ function App(): React.JSX.Element {
         <Stack.Screen
           name="Appscreen"
           component={AppScreen}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="Analytics"
+          component={Analytics}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="Budgets"
+          component={Budgets}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="Expenses"
+          component={Expenses}
           options={{
             headerShown: false,
           }}
