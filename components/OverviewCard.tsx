@@ -10,7 +10,7 @@ type OverviewCardProps = {
 const OverviewCard: React.FC<OverviewCardProps> = ({title, amount, icon}) => {
   const LucideIcon = icons[icon];
   return (
-    <View className="items-center rounded-md mx-1 border border-indigo-400/40 bg-indigo-900/80 justify-center px-2">
+    <View className="items-center flex-1 rounded-md mx-1 border border-indigo-400/40 bg-indigo-900/80 justify-center px-2">
       <View className="bg-zinc-700/80 rounded-full p-2">
         <LucideIcon
           className={`${
